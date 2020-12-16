@@ -11,7 +11,7 @@ def testTF2Detector(detectorargs):
     mydetector = TF2Detector.MyTF2Detector(detectorargs)
 
     outputvideo = 'output-opencv-gstreamer.mp4'
-    inputvideo = 'inference.MOV'
+    inputvideo = 'input.mp4'
     detectvideo.detectvideo_tovideo(inputvideo, mydetector, outputvideo)
 
 if __name__ == "__main__":
